@@ -1,0 +1,41 @@
+Model Creation
+***************
+- For the Ngrams:
+	- We should keep the highest (or 2-3 highest) Strings in which a word is repeated. For now delete all the ones that have one hit.
+
+- Combine sources:
+	Df_agg <- aggregate(. ~  Count, data = DF, sum)
+
+- When there is no hit, it migth be interesting to use similarity of words?
+
+- Create list of movies, books
+
+
+Quiz2
+*****
+
+beer
+world
+happiest
+crowd X. players X
+beach
+way
+time
+fingers
+hard X
+insane
+
+
+Quiz3
+*****
+
+give X, die
+financial X, spiritualX, marital?
+morning X, weekend
+stress
+look X, picture
+case X, matter
+hand
+top
+outside
+movies 
